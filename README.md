@@ -7,18 +7,4 @@ Whether used for daily vocabulary practice or as a lightweight language study co
 
 
 
-📘 Kişisel Proje: Python ile İngilizce Kelime Pratik Uygulaması (A1–B2 Seviye)
 
-Python öğrenme sürecimde, hem temel programlama becerilerimi pekiştirmek hem de İngilizce kelime dağarcığımı geliştirmek amacıyla deneme amaçlı bir proje geliştirdim.
-
-Bu terminal tabanlı uygulama, CEFR düzeylerine (A1, A2, B1, B2) göre kategorize edilmiş yaklaşık 4.000 İngilizce kelimeyi günlük tekrarlarla öğrenmeye yardımcı oluyor.
-Her çalıştırmada rastgele bir kelime gösteriliyor, bilinmeyen kelimeler araştırılabiliyor ve bilinen kelimeler listeden çıkarılarak öğrenme süreci kişiselleştirilebiliyor.
-
-🛠️ Kullanılan teknolojiler:
-random, os, time, file I/O, konsol arayüzü renklendirme
-
-🎯 Bu proje, hem İngilizce öğrenenlere hem de Python'da kendini geliştirmek isteyenlere yönelik sade ama etkili bir çalışma ortamı sunuyor.
-
-🔗 GitHub bağlantım: [GitHub projenizin linkini buraya ekleyin]
-
-#python #kişiselproje #yazılımogreniyorum #englishlearning #developer #sideproject

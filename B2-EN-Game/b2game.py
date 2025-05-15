@@ -7,13 +7,13 @@ def colored(text, color_code):
     return f"\033[{color_code}m{text}\033[0m"
 
 sleep(2)
-print("\nWelcome to the path of learning English. I am glad you have completed the A1 level(Level: A2)")
+print("\nWelcome to the path of learning English. I am glad you have completed the B1 level (Level: B2)")
 sleep(2)
-print("This program aims to memorize English words at A2 level with daily repetition.")
+print("This program aims to memorize English words at B2 level with daily repetition.")
 sleep(3)
 print("If there is a word you don't know, you can search for it, and if you don't want to see the words you know anymore, you can remove them from the list.")
 sleep(4)
-print("Each word you remove from the list is worth a new word. Once the list is complete, you can move on to B1 or higher levels.")
+print("Each word you remove from the list is worth a new word. Once the list is complete, you can move on to C1 or higher levels.")
 sleep(2)
 print("If you are ready, let's start")
 input(colored("\nPress Enter to start the program...", 32))
@@ -41,7 +41,7 @@ def clear_screen():
 
 
 def show_random_word():
-    filename = 'A2.txt'
+    filename = 'B2.txt'
     words = load_words(filename)
     if not words:
         print("The word file couldn't be loaded or is empty.")
@@ -75,4 +75,3 @@ def show_random_word():
 
 if __name__ == "__main__":
     show_random_word()
-

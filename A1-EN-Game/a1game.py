@@ -64,7 +64,7 @@ def show_random_word():
             continue
         elif choice == "2":
             words.remove(random_word)
-            save_words('A1.txt', words) 
+            save_words('A1.txt', words)  # Dosyayı güncelle
             print(f"{random_word} has been removed from the list.")
         elif choice == "3":
             print("Goodbye!")
